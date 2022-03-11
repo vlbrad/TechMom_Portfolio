@@ -1,0 +1,84 @@
+header {
+    
+}
+
+.top-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-nav {
+    display: flex;
+
+}
+
+.search-box {
+    border: 2px solid black;
+    display: flex;
+    justify-content: end;
+    width: 100px;   
+    padding: 3px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.search-icon {
+    margin-left: 15px;
+}
+
+.social-media-links {
+    display: flex;
+
+}
+
+.search-bar {
+    display: flex;
+
+}
+
+.bottom-nav {
+    display: flex;
+
+}
+
+.name-div {
+    display: flex;
+}
+
+nav  {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+nav a {
+    display: flex;
+
+}
+
+/* unvisited link */
+a:link {
+    color: blue;
+    text-decoration: none;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: blue;
+    text-decoration: none;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: red;
+    text-decoration: none;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+    text-decoration: none;
+  }
+
+  .my-name {
+
+  }
