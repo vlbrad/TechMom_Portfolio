@@ -1,10 +1,17 @@
-header {
-    
+body {
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
 }
 
 .top-header {
-    display: flex;
     justify-content: space-between;
+    width: 75%;
 }
 
 .top-nav {
@@ -35,50 +42,88 @@ header {
 
 }
 
-.bottom-nav {
-    display: flex;
-
+.bottom-header {
+    background-color:rgb(85, 141, 141);
+    margin-top: 20px;
+    padding-bottom: 20px;
+    width: 100vw;
 }
 
 .name-div {
-    display: flex;
+    text-align: center;
+}
+
+.center {
+  text-align: center;
 }
 
 nav  {
     display: flex;
-    justify-content: space-evenly;
-
+    justify-content: space-between;
 }
+
 
 nav a {
     display: flex;
 
 }
 
+.contact-box {
+    position: absolute;
+    right: 20px;
+}
+
 /* unvisited link */
 a:link {
-    color: blue;
+    color: black;
     text-decoration: none;
   }
   
   /* visited link */
   a:visited {
-    color: blue;
+    color: black;
     text-decoration: none;
   }
   
   /* mouse over link */
-  a:hover {
-    color: red;
+  .top-header a:hover {
+    color: white;
     text-decoration: none;
   }
   
   /* selected link */
   a:active {
-    color: blue;
+    color: black;
     text-decoration: none;
   }
 
-  .my-name {
-
+  .name-here {
+      text-align: center;
+      margin: 20px 0px 40px 0px;
+      font-size: 40px;  
+      font-family: 'Permanent Marker', cursive;
   }
+
+  .main-section {
+      background-image: url(./assets/camylla-battani-A5E-ym6WyGM-unsplash.jpg);
+        width: 60%;
+        height: 90vh;
+        background-size: cover;
+     
+    }
+
+
+    .footer {
+       display:flex;
+       justify-content: center;
+        position: fixed; 
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+
+    .footer a {
+        font-size: 50px;
+        padding: 20px;
+        
+     }
