@@ -1,0 +1,42 @@
+.main-section {
+    background-image: url(../../assets/Hiking.webp);
+      width: 40%;
+      height: 70vh;
+     
+  }
+
+
+  .contact-box {
+      background-color: white;
+      padding: 6px;
+  }
+
+  .section-container {
+      display: flex;
+  }
+
+  .right-section {
+      height: 70vh;
+      width: 60%;
+      z-index: -1;
+  }
+
+  .right-section-top {
+      height: 70%;
+      /* border: 2px solid rgb(201, 195, 195); */
+      background-size: cover;
+      background-image: url(../../assets/travel.webp);
+    background-position: bottom;
+  }
+
+  .right-section-bottom {
+      height: 30%;
+      background-size: cover;
+      background-image: url(../../assets/running.webp);
+      background-position: center;
+      background-repeat: no-repeat;
+  }
+
+.about-me-paragraph {
+    padding: 40px;
+}

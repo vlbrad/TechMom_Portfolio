@@ -28,13 +28,14 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.search-icon {
-    margin-left: 15px;
-}
 
 .social-media-links {
     display: flex;
 
+}
+.footer-icon {
+    height: 40px;
+    width: 40px;
 }
 
 .search-bar {
@@ -43,7 +44,8 @@ body {
 }
 
 .bottom-header {
-    background-color:rgb(85, 141, 141);
+    background-color:rgb(68, 92, 92);
+    color:aliceblue;
     margin-top: 20px;
     padding-bottom: 20px;
     width: 100vw;
@@ -60,18 +62,20 @@ body {
 nav  {
     display: flex;
     justify-content: space-between;
+    
 }
 
 
 nav a {
     display: flex;
-
+   
 }
 
 .contact-box {
     position: absolute;
     right: 20px;
 }
+
 
 /* unvisited link */
 a:link {
@@ -99,9 +103,10 @@ a:link {
 
   .name-here {
       text-align: center;
-      margin: 20px 0px 40px 0px;
+      margin: 20px 0px 20px 0px;
       font-size: 40px;  
-      font-family: 'Permanent Marker', cursive;
+      font-family: 'Kaushan Script', cursive;
+      
   }
 
   .main-section {
