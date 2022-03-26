@@ -1,4 +1,14 @@
+.body {
+  font-family: 'Cabin', sans-serif;
+}
+
 .main-section {
     background-image: url(../../assets/skills\ 4.jpeg);
       width: 100%;
+      width: 100%;
+}
+.boxes {
+  padding: 95px;
+  width: 20%;
+  
 }

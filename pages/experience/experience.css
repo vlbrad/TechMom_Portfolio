@@ -1,0 +1,14 @@
+.body {
+    font-family: 'Cabin', sans-serif;
+}
+
+.main-section {
+    background-image: url(../../assets/experience.avif);
+      width: 100%;
+      width: 100%;
+}
+
+.contact-box {
+    background-color: white;
+    padding: 6px;
+}
